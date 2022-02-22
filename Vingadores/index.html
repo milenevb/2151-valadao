@@ -8,22 +8,48 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <h1>Título da 1ª Imagem</h1>
+    <h1> <output id="titulo"> Título da 1ª imagem </output> </h1>
 
     <!--**************************** Miniaturas-->
     <div class="miniaturas">
-        
+
+        <div class="imagem">
+            <img src="IMG/capitao.jpg" onmouseover="trocar(this.src,'Capitão América','O mais bonito')"> 
+            <!--pode coloar no lugar da img/... This.scr-->
         </div>
+
+        <div class="imagem">
+            <img src="IMG/gaviao.jpg" onmouseover="trocar('IMG/gaviao.jpg', 'Gavião Arqueiro','Miro melhor que todos')">
+        </div>
+
+        <div class="imagem">
+            <img src="IMG/homem_ferro.jpg" onmouseover=" trocar('IMG/homem_ferro.jpg', 'Homem de Ferro','Me escondendo sempre')">
+        </div>
+
+        <div class="imagem">
+            <img src="IMG/hulk.jpg" onmouseover="trocar('IMG/hulk.jpg', 'Hulk', 'O fortão')">
+        </div>
+
+        <div class="imagem">
+            <img src="IMG/thor.jpg" onmouseover="trocar('IMG/thor.jpg', 'Thor', 'Sempre com meu machado')">
+        </div>
+
+        <div class="imagem">
+            <img src="IMG/viuva.jpg" onmouseover="trocar('IMG/viuva.jpg', 'Viúva', 'Gatona')">
+        </div>
+
+    </div>
 
     <!--*************************** Imagem principal-->
     <div class="principal">
+        <img src="IMG/capitao.jpg" id="imagem_principal"> 
 
-        </div>
+    </div>
 
     <!--*************************** Legenda da imagem-->
     <div class="legenda">
-        Legenda da primeira img
-        </div>
+        <output id="legenda"> legenda da primeira img </output>
+    </div>
 
 </body>
 <script src="JS/script.js"></script>
