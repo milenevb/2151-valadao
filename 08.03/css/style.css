@@ -1,0 +1,22 @@
+body{
+    margin:0cm;
+    background-image: url(../img/fundo.webp);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#pag{
+    width: 1000px;
+    margin: auto;
+    color: black;
+    background-color: bisque;
+}
+header{
+    background-color:aquamarine;
+    background-image: url(../img/banner\ bem\ vindo.webp);
+    background-size: 100% 100%;
+    color: aquamarine;
+    height: 13em;
+    max-width: 100%;
+    padding: 2em;
+    text-align: right;
+}
