@@ -12,4 +12,4 @@ function log (){
     else{
         document.getElementById("msg").style.display ="block";
     }
-}
+} 
