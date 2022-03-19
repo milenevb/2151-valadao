@@ -24,7 +24,7 @@ header{
     font-size: 18px;
 }
 header h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
     font-size: 40px;
     font-weight: bold;
     color: rgb(253, 251, 251);
@@ -35,7 +35,10 @@ nav {
     padding: 1em;
     max-width: 100%;
     font-size: 20px;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
 }
+
 section{
 
     color: rgb(248, 247, 248);
@@ -59,6 +62,17 @@ footer{
     left: 0px;
     background-color: rgba(0,0,0,0.7);
 }
+#popup h2{
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 3px;
+    color: blue;
+}
+#popup a{
+    font-size: 20px;
+    color: rgb(10, 175, 59);
+}
+
 #fechar {
     position: absolute;
     right: 80px;
@@ -85,6 +99,11 @@ footer{
     width: 100%;
     padding: 2%;
     margin: auto;
+}
+#quadro #msg {
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #quadro a {
