@@ -1,0 +1,46 @@
+/* modificar a cor do navbar
+    ajustar o tamanho do celular, sem que os botões parem de funcionar
+*/
+
+.nav-item{
+    color: red;
+    font-size: 1.3em;
+    font-family: 'Cabin', sans-serif;
+}
+header{
+    height: 100vh;
+    min-height: 400px;
+    background-size:cover;
+    background-image: url(../img/fundo1.png);
+    background-repeat:round; 
+}
+
+.unico{
+    display: block;
+    padding-top: 3em;
+    font-family: 'Cabin', sans-serif;
+    font-size: 2.2em;
+    color: white;
+}
+
+.instale{
+    padding-top: 7em;
+}
+
+#celulares1{
+    width: 80vh;
+    min-width: 20vh;
+}
+.celulares1{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.tdirp{
+    display: block;
+    color: black;
+    font-size: 2.2em;
+    padding-top: 6em;
+    text-align: left ;
+    font-family: 'Cabin', sans-serif;
+}
