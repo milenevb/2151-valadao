@@ -28,11 +28,10 @@ header{
 }
 
 #celulares1{
-    width: 80vh;
+    width: 65vh;
     min-width: 20vh;
 }
 .celulares1{
-    position: absolute;
     top: 0;
     right: 0;
 }
