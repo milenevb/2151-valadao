@@ -28,7 +28,7 @@ header{
 }
 
 #celulares1{
-    width: 70vh;
+    width: 65vh;
     min-width: 20vh;
 }
 .celulares1{
@@ -47,7 +47,7 @@ header{
     background-color: #7853D0;
 }
 .celulares{
-    width: 80vh;
+    width: 100%;
     min-width: 20vh;
     margin-top: 10vh;
     margin-bottom: 10vh;
@@ -79,8 +79,8 @@ header{
 }
 
 #celular4{
-    width: 60vh;
-    align-items: center;
+    width: 100%;
+    
 }
 
 .rodape{
@@ -88,5 +88,7 @@ header{
     align-items: center;
 }
 .logorodape{
-    justify-content: center;
+    height: 60%;
+    margin-top: 3%;
+
 }
