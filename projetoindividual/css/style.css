@@ -28,7 +28,7 @@ header{
 }
 
 #celulares1{
-    width: 65vh;
+    width: 99%;
     min-width: 20vh;
 }
 .celulares1{
@@ -91,4 +91,24 @@ header{
     height: 60%;
     margin-top: 3%;
 
+}
+#celulares1Mob{
+    display: none;
+    
+}
+#celulares1{
+    display: block;
+}
+
+
+@media screen and ( max-width:768px ) {
+    #celulares1Mob{
+        display: block;
+        width: 90%;
+        margin-top: 10em;
+    }
+    #celulares1{
+        display: none ;
+        
+    }
 }
