@@ -23,17 +23,21 @@ header{
     color: white;
 }
 
+.unicomob{
+    padding-top: 1em;
+    font-family: 'Cabin', sans-serif;
+    font-size: 2.2em;
+    color: white;
+    display: none;
+}
+
 .instale{
     padding-top: 7em;
 }
 
 #celulares1{
-    width: 99%;
-    min-width: 20vh;
-}
-.celulares1{
-    top: 0;
-    right: 0;
+    width: 85%;
+    margin-top: -2em;    
 }
 .tdirp{
     display: block;
@@ -78,9 +82,22 @@ header{
     font-family: 'Cabin', sans-serif;
 }
 
+.linha{
+    z-index: 1000;
+    margin-top: -19em;
+    position: absolute;
+    z-index: 1;
+}
+#linha{
+    width: 100%;
+    z-index: 1;
+}
+
 #celular4{
     width: 100%;
-    
+    z-index: 100;
+    position: relative;
+
 }
 
 .rodape{
@@ -100,15 +117,111 @@ header{
     display: block;
 }
 
+.ultimapag{
+    min-height: 105vh;
+}
 
-@media screen and ( max-width:768px ) {
+
+/*RODAPÉ*/
+footer{
+    background-color: #7853D0;
+    padding: 50px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;    
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h1{
+    font-size: 2em;
+    color: white;
+    margin-bottom: 1.2em;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+}
+.footer-col img {
+    width: 12%;
+    margin: 0 10px;
+}
+#loguinho{
+    width: 80%;
+    margin-top: 3rem;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0 0 -30px;
+    text-align: center;
+}
+.footer-col ul li a {
+    font-size: 1.2em;
+   /* text-transform: capitalize;  para primeira letra ficar maiúscula */
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a :hover{
+    color: blueviolet;
+    padding-left: 10px;
+}
+
+.copyright {
+    color: white;
+    margin: 2em 0 0;
+    font-size: 1.3em;
+}
+
+
+@media ( max-width:768px ) {
     #celulares1Mob{
         display: block;
-        width: 90%;
-        margin-top: 10em;
+        width: 50%;
+        margin-top: 1em;
     }
     #celulares1{
         display: none ;
-        
+    }
+    header{
+        background-image: none;
+        background-color: #7853D0;
+    }
+    .unicomob{
+        display: block;
+        font-size: 1.8em;
+    }
+    .unico{
+        display: none;
+    }
+    .ins{ /* NÂO ALINHOU OS BOTOES */
+        align-items: center;
+        margin-top: 2em;
+    }
+
+    
+
+
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
     }
 }
