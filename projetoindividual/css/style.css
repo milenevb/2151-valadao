@@ -23,6 +23,15 @@ header{
     color: white;
 }
 
+.unicoprod{
+    display: block;
+    padding-top: 6em;
+    font-family: 'Cabin', sans-serif;
+    font-size: 2.2em;
+    color: white;
+    text-align: center;
+}
+
 .unicomob{
     padding-top: 1em;
     font-family: 'Cabin', sans-serif;
@@ -200,6 +209,7 @@ footer{
     header{
         background-image: none;
         background-color: #7853D0;
+        height: 150vh;
     }
     .unicomob{
         display: block;
@@ -225,6 +235,37 @@ footer{
         font-family: 'Cabin', sans-serif;
     }
     
+    .tesqb{
+        font-size: 1.8em;
+        padding-top: 3em;
+        text-align: center;
+    }
+
+    .tecel4{
+        display: block;
+        color: rgb(0, 0, 0);
+        font-size: 1.8em;
+        padding-top: 3em;
+        padding-bottom: 0;
+        text-align: center ;
+    }
+      
+        
+    .tdcel4{
+        display: block;
+        color: rgb(0, 0, 0);
+        font-size: 1.8em;
+        padding-top: 0em;
+        padding-bottom: 2em;
+        text-align: center ;
+        font-family: 'Cabin', sans-serif;
+    }
+
+    #celular4{
+        width: 70%;
+        margin-left: 4em;
+    }
+
     .celulares {
     
         width: 90%;
@@ -244,6 +285,7 @@ footer{
         margin-bottom: 30px;
     }
 }
+
 
 @media (max-width:600px) {
     .footer-col{
